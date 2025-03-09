@@ -7,8 +7,11 @@ def sub(a,b):
 def mul(a,b):
     return a*b
 
-def div(a,b):
-    return a/b
+def divide(x, y):
+    if y != 0:
+        return x / y
+    else:
+        return "Error! Division by zero."
 
 operation_dict={"+":add,
            "-":sub,
